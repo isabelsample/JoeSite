@@ -1,0 +1,103 @@
+body {
+	font-family: Helvetica;
+	color: white;
+	margin: 0;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+	font-size: 18px;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	height: 80px;
+}
+
+.active {
+	background-color: #4CAF50;
+	height: 80px;
+}
+
+.blue {
+	float: left;
+	width: 40%;
+	height: auto;
+	background-color: black;
+	padding: 1% 0;
+}
+
+.links {
+	float: right;
+	width: 50%;
+	height: auto;
+	padding: 120px 50px;
+	background-color: #111;
+}
+
+.aside {
+	background-color: white;
+	color: #333;
+	font-size: 16px;
+	padding: 3% 15%;
+	width: 33.33%;
+	height: 250px;
+	float: left;
+}
+
+.player {
+	float: right;
+	padding-top: 20px;
+	margin-right: 25%;
+	margin-left: 0;
+	width: 33.33%;
+}
+
+.contact {
+	width: 33.33%;
+}
+
+.pic {
+	background-color: black;	
+	height: 500px;
+	padding-top: 50px;
+}
+
+footer {
+	font-size: 12px;
+	height: 80px;
+	background-color: #333;
+	color: white;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+
+

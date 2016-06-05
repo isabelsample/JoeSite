@@ -1,0 +1,89 @@
+body {
+	font-family: Helvetica;
+	color: black;
+	margin: 0;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+	font-size: 18px;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	height: 80px;
+}
+
+.active {
+	background-color: #4CAF50;
+	height: 80px;
+}
+
+.page {
+	background-color: black;
+}
+
+.one {
+	height: 400px;
+	width: 50%;
+	background-color: red;
+	float: left;
+}
+
+.two {
+	height: 400px;
+	width: 50%;
+	background-color: orange;
+	float: right;
+}
+
+.three {
+	height: 500px;
+	width: 33.33%;
+	background-color: yellow;
+	float: left;
+}
+
+.four {
+	height: 500px;
+	width: 33.33%;
+	background-color: green;
+	display: inline-block;
+}
+
+.five {
+	height: 500px;
+	width: 33.33%;
+	background-color: blue;
+	float: right;
+}
+
+footer {
+	height: 50px;
+	background-color: purple;
+	clear: both;
+}
+
